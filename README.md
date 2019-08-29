@@ -1,176 +1,215 @@
-# HANUMAN Jekyll Theme
+hexo-theme-yilia
+================
 
-[![Build Status](https://travis-ci.org/samanyougarg/hanuman.svg?branch=master)](https://travis-ci.org/samanyougarg/hanuman)
+Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
+崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.me/) 查看效果。           
+ 
+如果想体验手机浏览效果，可以扫一下二维码：
 
-Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+![litten-qrcode](https://cloud.githubusercontent.com/assets/2024949/6349328/51a067fe-bc64-11e4-881c-f68050c50c28.png)
 
-It is built using the open source [AMP Start framework](https://www.ampstart.com/) and can be customized as per your requirements.
+—————————————————————
 
-<a href="https://www.buymeacoffee.com/samanyougarg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" target="_blank"></a>
+**关于主题：**
 
-## Live Demo
-## [Hanuman](https://samanyougarg.com/hanuman)
-![Hanuman](/Screenshots/hanuman.jpg "Hanuman Preview")
+1. 崇尚简约       
+2. 追求移动端体验     
+3. 希望把加载速度做到极致（努力中）    
+4. 让大家把注意力放到内容上。这是本主题设计初衷      
+5. 主题不支持IE6，7，8。以后也不会     
 
+**近期更新（2017.07.09）：**
 
-## Features
+2017.07.09
+1. 返回顶部
+2. TOC目录
 
-- Minimal
-- Responsive
-- Syntax Highlighting for code
-- Cover Images for homepage and blog posts
-- Social Sharing
-- Simple Navigation Menu
-- Pagination
-- Google Analytics
-- Can be easily installed via "theme gem"
-- Github Pages support
-- Easily Customisable
-- Tags
-- Multiple Authors
+2016.12.04
+1. 打赏
+2. 搜索
+3. “更好的”标签云
+4. “更好的”分享
+5. 一些动画
 
-## What is AMP
+**计划中：**
 
-AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
+1. 移动端优化
+             
+## 一、外观
 
-## Installation
+####**常规**
 
-There are different ways to install the theme -
+![常规](https://cloud.githubusercontent.com/assets/2024949/19027861/92879edc-8967-11e6-8e60-7987b6507c8d.gif)
 
-### 1. Cloning the repository and updating settings
-1. Fork this repository and clone the forked repository.
-2. Update the _config.yml file as per your requirements.
-3. Add your posts to the _posts directory.
-4. Deploy to Github Pages or your own server.
+####**手机**
 
-#### Deploying to Github Pages
-**Method 1**
+![手机](https://cloud.githubusercontent.com/assets/2024949/19027020/1c5b756a-895f-11e6-99bf-ddff9687aee0.gif)   
 
-Push the contents of the destination folder (mentioned in _config.yml. eg - destination: ../hanuman-pages/) to the gh-pages branch(if project page) or master branch(if user page) of your repository.
+####**ipad横竖屏切换**
 
-**Method 2**
+![ipad横竖屏切换](https://cloud.githubusercontent.com/assets/2024949/19026392/e74e1816-8957-11e6-8f08-eac9b3c8c036.gif)                    
 
-- Set up travis-ci for your fork.
-- Generate your secure token with the travis gem:
-  Run `gem install travis` on your terminal.
-- Grab the GH_TOKEN from https://github.com/settings/tokens
-- Then run `travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'`
-- Add the token to your .travis.yml file.
-Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch.
-This is the setup I am using.
+## 二、开发者
 
-### 2. Ruby Gem Method
-Add this line to your Jekyll site's `Gemfile`:
+为了性能和开发工程化考虑，Yilia需要使用webpack进行构建生成。
 
-```ruby
-gem "hanuman"
+如果您对主题有一些定制化的需求，请参考wiki[《Yilia源码目录结构及构建须知》](https://github.com/litten/hexo-theme-yilia/wiki/Yilia%E6%BA%90%E7%A0%81%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%8F%8A%E6%9E%84%E5%BB%BA%E9%A1%BB%E7%9F%A5)
+
+## 三、使用
+
+#### 安装
+
+``` bash
+$ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+#### 配置
 
-```yaml
-theme: hanuman
+修改hexo根目录下的 `_config.yml` ： `theme: yilia`
+
+#### 更新
+
+``` bash
+cd themes/yilia
+git pull
 ```
 
-And then execute:
+## 四、配置
 
-    $ bundle
+主题配置文件在主目录下的`_config.yml`，请根据自己需要修改使用。
+完整配置例子，可以参考[我的博客备份](https://github.com/litten/BlogBackup)
 
-Or install it yourself as:
+```
+# Header
 
-    $ gem install hanuman
+menu:
+  主页: /
+  随笔: /tags/随笔/
 
-You'll also need to copy or create the _config.yml file just like in this repository. Similarly, you'll need to have a navigation.yml and author.yml in your _data directory.
+# SubNav
+subnav:
+  github: "#"
+  weibo: "#"
+  rss: "#"
+  zhihu: "#"
+  #qq: "#"
+  #weixin: "#"
+  #jianshu: "#"
+  #douban: "#"
+  #segmentfault: "#"
+  #bilibili: "#"
+  #acfun: "#"
+  #mail: "mailto:litten225@qq.com"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
 
-#### Deploying to Github Pages
-Run `bundle exec jekyll serve` inside your cloned repository. Push the contents of the resulting _site to your Github Pages repository.
+rss: /atom.xml
 
+# 是否需要修改 root 路径
+# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
+# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+root: 
 
-### 3. Jekyll Remote Theme
-1. Create or update your Gemfile with the following -
+# Content
 
-```ruby
-source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
+# 文章太长，截断按钮文字
+excerpt_link: more
+# 文章卡片右下角常驻链接，不需要请设置为false
+show_all_link: '展开全文'
+# 数学公式
+mathjax: false
+# 是否在新窗口打开链接
+open_in_new: false
+
+# 打赏
+# 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
+reward_type: 2
+# 打赏wording
+reward_wording: '谢谢你请我吃糖果'
+# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
+alipay: 
+# 微信二维码图片地址
+weixin: 
+
+# 目录
+# 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
+toc: 1
+# 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
+toc_hide_index: true
+# 目录为空时的提示
+toc_empty_wording: '目录，不存在的…'
+
+# 是否有快速回到顶部的按钮
+top: true
+
+# Miscellaneous
+baidu_analytics: ''
+google_analytics: ''
+favicon: /favicon.png
+
+#你的头像url
+avatar:
+
+#是否开启分享
+share_jia: true
+
+#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
+#不需要使用某项，直接设置值为false，或注释掉
+#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
+
+#1、多说
+duoshuo: false
+
+#2、网易云跟帖
+wangyiyun: false
+
+#3、畅言
+changyan_appid: false
+changyan_conf: false
+
+#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
+disqus: false
+
+#5、Gitment
+gitment_owner: false      #你的 GitHub ID
+gitment_repo: ''          #存储评论的 repo
+gitment_oauth:
+  client_id: ''           #client ID
+  client_secret: ''       #client secret
+
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+style:
+  # 头像上面的背景颜色
+  header: '#4d4d4d'
+  # 右滑板块背景
+  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+
+# slider的设置
+slider:
+  # 是否默认展开tags板块
+  showTags: false
+
+# 智能菜单
+# 如不需要，将该对应项置为false
+# 比如
+#smart_menu:
+#  friends: false
+smart_menu:
+  innerArchive: '所有文章'
+  friends: '友链'
+  aboutme: '关于我'
+
+friends:
+  友情链接1: http://localhost:4000/
+  友情链接2: http://localhost:4000/
+  友情链接3: http://localhost:4000/
+  友情链接4: http://localhost:4000/
+  友情链接5: http://localhost:4000/
+  友情链接6: http://localhost:4000/
+
+aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
 ```
 
-2. Update the bundled gems using `bundle` command.
 
-3. Add `remote_theme: "hanuman"` to your `_config.yml`.
-
-4. Add `jekyll-remote-theme` to the plugins array of your `_config.yml` -
-
-```yaml
-plugins:
-  - jekyll-remote-theme
-```
-
-## Usage
-
-### _config.yml
-Update _config.yml with your respective settings like updating your site's name, description etc...
-
-### Styling
-AMP has a limitation that you can only use inline css.
-All the CSS for this theme is in the styles.scss file in the includes directory.
-
-#### Changing the Default Color
-In the styles.scss file in the includes directory, you can change the hex value of $theme-color to the color you would like your site to use.
-
-### Author Information
-Author information is present in the author.yml file in the _data folder. You can update the fields of that file as per your requirements.
-
-### Sidenav
-Sidenav can be updated from the navigation.yml file in the _data folder.
-
-## Writing Posts
-You can write posts just as you would in Jekyll, the only difference being that AMP has some strict guidelines on including external content.
-
-You cannot use Markdown format or normal HTML tags. AMP provides its own custom tags for images, videos etc...
-
-### Examples -
-
-**Images**
-`<amp-img src="welcome.jpg" alt="Welcome" height="400" width="800"></amp-img>`
-
-**Videos**
-`<amp-youtube data-videoid="mGENRKrdoGY" layout="responsive" width="480" height="270"></amp-youtube>`
-
-[See Full AMP Documentation.](https://www.ampproject.org/docs/)
-
-### Using AMP Components
-Some AMP components require you to specify external scripts before using them.
-You can specify these scripts in the head.html file in the includes directory after the already imported scripts and then use these components in any post.
-
-## Validating your page with AMP
-AMP provides built-in validator to validate your pages so that they can rendered quickly.
-
-You can access this validator by opening the Developer Console in your browser and adding #development=1 to any url of your site.
-
-Example -
-http://localhost:4000/#development=1
-
-If you have errors on your page, AMP will list those for you in the console. If you do not have any errors, you'll get a message "AMP Validation Successful" on your console.
-
-## Enabling Google Analytics
-1. Set up your Analytics Tracking ID in _config.yml.
-2. Remove {% comment %} and {% endcomment %} tags in the default.html file in layouts directory.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/samanyougarg/hanuman. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-To submit a pull request -
-
-1. Fork/clone the repository.
-2. Develop.
-3. Create a new branch from the master branch.
-4. Open a pull request on Github describing what was fixed or added.
-
-## Thanks
-Hanuman is based on [amplify](https://github.com/ageitgey/amplify) jekyll theme. Thank You.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
