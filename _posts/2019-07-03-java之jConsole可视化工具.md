@@ -21,7 +21,7 @@ tag: java语言
 
 ​	首页样式
 
-![](images/微信图片_20190809140910.png)
+![](https://github.com/superhxf/superhxf.github.io/blob/master/_posts/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190809140910.png?raw=true)
 
 整个工具大概列出了概览，内存，线程，类，VM概要，MBean六类，平时最关注的是内存和线程。
 
