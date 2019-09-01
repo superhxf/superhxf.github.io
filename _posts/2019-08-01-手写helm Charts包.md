@@ -1,3 +1,12 @@
+---
+
+layout: post
+
+title:  手写helm Charts包
+
+tag: CICD
+
+---
 # 手写helm Charts包
 
 helm中Charts作为其软件包格式，如何编写，如何发布时开发者使用helm需要掌握的一个内容。
