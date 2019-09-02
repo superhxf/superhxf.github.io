@@ -25,7 +25,7 @@ jstack pid >> thread.dump
 1. -F当’jstack [-l] pid’没有相应的时候强制打印栈信息,如果直接jstack无响应时，用于强制jstack），一般情况不需要使用
 2. -l长列表. 打印关于锁的附加信息,例如属于java.util.concurrent的ownable synchronizers列表，会使得JVM停顿得长久得多（可能会差很多倍，比如普通的jstack可能几毫秒和一次GC没区别，加了-l 就是近一秒的时间），-l 建议不要用。一般情况不需要使用
 3. -m打印java和native c/c++框架的所有栈信息.可以打印JVM的堆栈,显示上Native的栈帧，一般应用排查不需要使用
-4. -h | -help打印帮助信息
+4. `-h | -help`打印帮助信息
 5. pid 需要被打印配置信息的java进程id,可以用jps查询.
 
 ### 3、线程相关内容
