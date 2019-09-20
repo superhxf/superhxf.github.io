@@ -7,7 +7,7 @@ title:  linux安装mysql
 tag: 数据库
 
 ---
-# 2019-09-20-linux安装mysql
+# linux安装mysql
 
 ## 1、前言
 
