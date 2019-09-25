@@ -4,8 +4,6 @@ layout: post
 
 title:  Springboot中的actuator监控说明
 
-category: 框架
-
 tag: 框架
 
 ---
