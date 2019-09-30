@@ -35,7 +35,7 @@ tag: 框架
    org.springframework.boot.autoconfigure.EnableAutoConfiguration=改成自动配置类路径
    ```
 
-​      这里使用了一个spring框架的一个特性，就是在启动的时候，spring会遍历各个jar中的META-INF目录下的spring.factories文件构成一个配置文件链表，进行加载，可过spring boot的启动时候，run()方法源码的同学应该看到过这段加载的程序。
+​      这里使用了一个spring框架的一个特性，就是在启动的时候，spring会遍历各个jar中的META-INF目录下的spring.factories文件构成一个配置文件链表，进行加载，看过spring boot的启动时，run()方法源码的同学应该看到过这段加载的程序。
 
 ## 5、打包发布
 
