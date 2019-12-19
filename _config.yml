@@ -1,11 +1,11 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: superhxf Blog
+SEOTitle: 郝晓飞的博客 | haoxiaofei Blog
 header-img: img/home-bg.jpg
-email: caojiele1225@126.com
+email: 13466481949@163.com
 description: ""
 keyword: ""
-url: "https://caojiele.com"              # your host, for absolute URL
+url: "https://superhxf.github.io"              # your host, for absolute URL
 baseurl: "/Jlcaoblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -78,21 +78,21 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-friends: [
-    {
-        title: "Jlcao Blog",
-        href: "https://caojiele.com"
-    },{
-        title: "曹",
-        href: "https://caojiele.com"
-    },{
-        title: "杰",
-        href: "https://caojiele.com"
-    },{
-        title: "乐",
-        href: "https://caojiele.com"
-    },{
-        title: "曹小宝宝",
-        href: "https://caojiele.com"
-    }
-]
+# friends: [
+#     {
+#         title: "Jlcao Blog",
+#         href: "https://caojiele.com"
+#     },{
+#         title: "曹",
+#         href: "https://caojiele.com"
+#     },{
+#         title: "杰",
+#         href: "https://caojiele.com"
+#     },{
+#         title: "乐",
+#         href: "https://caojiele.com"
+#     },{
+#         title: "曹小宝宝",
+#         href: "https://caojiele.com"
+#     }
+# ]
