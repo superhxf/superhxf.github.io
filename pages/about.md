@@ -2,13 +2,13 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: 希罗卡, 小卡,郝晓飞
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是希罗卡，相信程序的力量。
 
 仰慕「优雅编码的艺术」。
 
