@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: 归档
 
   -
     href: /wiki/
@@ -95,19 +95,19 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: superhxf
+    repo: superhxf.github.io
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 627e8a20de668ff46335
+        client_secret: e8ed4836303ea2076106029789598a12179931a2
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: superhxf
+    repo: superhxf.github.io
+    clientID: 627e8a20de668ff46335
+    clientSecret: e8ed4836303ea2076106029789598a12179931a2
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+lazy_load_disqus : true
 
 # ---------------- #
 #      Search      #
@@ -118,8 +118,8 @@ simple_jekyll_search:
     # 最多显示多少条搜索结果
     limit: 10
 
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
+# # ---------------- #
+# #    Analytics     #
+# # ---------------- #
+# google:
+#     analytics_id: UA-80669434-1

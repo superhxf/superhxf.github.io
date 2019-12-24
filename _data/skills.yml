@@ -3,8 +3,9 @@
       - Java
       - Design Patterns
       - spring
-      - mybatis
+      - mybatis & mybatisPlus
       - spring cloud
+      - spring-data
 
 - name: CICD Developer Keywords
   keywords:
