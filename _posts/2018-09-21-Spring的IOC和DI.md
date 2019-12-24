@@ -4,6 +4,8 @@ layout: post
 
 title: Spring的IOC和DI
 
+categories: 框架
+
 tag: 框架
 
 ---

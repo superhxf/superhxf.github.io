@@ -4,6 +4,8 @@ layout: post
 
 title: java工具之jConsole可视化工具
 
+categories: java语言
+
 tag: java语言
 
 ---

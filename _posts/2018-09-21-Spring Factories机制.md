@@ -4,6 +4,8 @@ layout: post
 
 title: Spring Factories机制
 
+categories: 框架
+
 tag: 框架
 
 ---

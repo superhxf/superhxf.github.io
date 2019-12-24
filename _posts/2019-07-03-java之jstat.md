@@ -4,6 +4,8 @@ layout: post
 
 title: java工具之jstat
 
+categories: java语言
+
 tag: java语言
 
 ---

@@ -4,6 +4,8 @@ layout: post
 
 title:  如何写一个springboot的starter
 
+categories: 框架
+
 tag: 框架
 
 ---

@@ -4,6 +4,9 @@ layout: post
 
 title:  linux安装mysql
 
+
+categories: 数据库
+
 tag: 数据库
 
 ---

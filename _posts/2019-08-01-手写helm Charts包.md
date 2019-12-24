@@ -4,6 +4,8 @@ layout: post
 
 title:  手写helm Charts包
 
+categories: CICD
+
 tag: CICD
 
 ---

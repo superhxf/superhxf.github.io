@@ -3,6 +3,9 @@
 layout: post
 
 title: springboot中的actuator
+
+categories: 框架
+
 tag: 框架
 
 ---

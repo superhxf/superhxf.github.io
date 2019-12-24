@@ -4,6 +4,8 @@ layout: post
 
 title: java之jstack线程堆栈信息分析工具
 
+categories: java语言
+
 tag: java语言
 
 ---

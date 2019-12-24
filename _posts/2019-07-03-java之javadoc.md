@@ -1,3 +1,15 @@
+
+---
+
+layout: post
+
+title:  java之javadoc
+
+categories: java语言
+
+tag: java语言
+
+---
 # java之javadoc
 
 在编写完成java程序中的文档注释后，可以使用javadoc工具提取程序中的文档注释来生成API文档。javadoc命令可对源文件、包生成API文档，java源文件可以支持通配符。

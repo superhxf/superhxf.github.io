@@ -4,6 +4,8 @@ layout: post
 
 title: springboot中的流行实践解读
 
+categories: 框架
+
 tag: 框架
 
 ---

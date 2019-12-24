@@ -4,6 +4,8 @@ layout: post
 
 title: Springboot使用spring Data jpa
 
+categories: 框架
+
 tag: 框架
 
 ---

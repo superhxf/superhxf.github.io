@@ -4,6 +4,8 @@ layout: post
 
 title: Spring Framework 认知
 
+categories: 框架
+
 tag: 框架
 
 ---

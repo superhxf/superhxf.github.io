@@ -4,6 +4,8 @@ layout: post
 
 title:  dashboard安装
 
+categories: CICD
+
 tag: CICD
 
 ---
