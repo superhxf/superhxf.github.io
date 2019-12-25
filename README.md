@@ -18,7 +18,7 @@
 
 **[在线预览 &rarr;]( https://superhxf.github.io)**
 
-![screenshot home](https://superhxf.github.io/assets/images/screenshots/home.png)
+![screenshot home](https://superhxf.github.io/assets/images/screenshots/home.jpg)
 
 ## Fork 指南
 
